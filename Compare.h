@@ -31,8 +31,8 @@ public:
         }
     }
 private:
-    string name1;
-    string name2;
-    vector<string> v1;
-    vector<string> v2;
+    string name1=0;
+    string name2=0;
+    vector<string> v1={"n"};
+    vector<string> v2={"n"};
 };

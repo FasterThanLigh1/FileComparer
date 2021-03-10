@@ -12,7 +12,7 @@ void error(const string& s)
         if(v1.size()!=v2.size()){
                 error("Files size do not match\n");
         }
-        for(int i=0;i<v1.size();i++)
+        for(unsigned int i=0;i<v1.size();i++)
         {
             cout<<"Test "<<i+1<<" : ";
             if(v1[i]==v2[i])
